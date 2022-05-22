@@ -1,0 +1,27 @@
+.Countainer {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: 110px 70px 70px 70px 70px 70px;
+
+  background-color: rgb(203, 236, 241);
+  width: 280px;
+}
+.Screen {
+  grid-column: 1/-1;
+  grid-row: 1 / span2;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  justify-content: space-around;
+  padding-right: 10px;
+  word-break: break-all;
+  height: 100px;
+}
+.button {
+  border: 10px outset white;
+  background-color: rgb(91, 248, 253);
+}
