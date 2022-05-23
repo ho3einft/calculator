@@ -1,0 +1,2 @@
+.Countainer{background-color:#cbecf1;display:grid;grid-template-columns:repeat(4,70px);grid-template-rows:110px 70px 70px 70px 70px 70px;margin:20px;width:280px}.Screen{word-wrap:break-word;background-color:gray;border-top-left-radius:10px;border-top-right-radius:10px;display:flex;flex-direction:column;grid-column:1/-1;grid-row:1/span2;height:100px;justify-content:space-around;padding-right:10px;word-break:break-all}.button{background-color:#5bf8fd;border:10px outset #fff}
+/*# sourceMappingURL=main.a49be302.css.map*/
